@@ -1,0 +1,76 @@
+html{
+  min-height: 100%;
+}
+
+.chartStyle {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 0px;
+  font-family: sans-serif;
+  /* background-size: 100%; */
+  background-position: bottom;
+  background-color: #95e8f3;
+  min-height: 100%;
+}
+
+
+.charts {
+  margin: 20px;
+  padding: 20px;
+  margin-bottom: 0px;
+  font-family: sans-serif;
+  background-position: bottom;
+  background-color: #95e8f3;
+  min-height: 100%;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(/img/wallpaper1.jpeg) no-repeat;
+  background-size: 100%;
+  background-position: top;
+  background-color: white;
+  min-height: 100%;
+}
+
+/* body{
+  background: url(/img/wallpaper1.jpeg);
+  background-size: cover;
+  background-position: center;
+  min-height: 1000px;
+} */
+@media screen and (max-width: 670px){
+  body{
+    min-height: 500px;
+  }
+}
+
+form{
+  padding: 20px;
+  margin-top: 60px;
+}
+
+form button, form h5{
+  margin: 20px 0;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+  border-color: #ec407a;
+  box-shadow: none;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label{
+  color: #ec407a !important;
+}
+
+
+
