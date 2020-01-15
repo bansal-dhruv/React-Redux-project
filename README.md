@@ -3,7 +3,7 @@
 This is just a part of react redux part , which I tried to make. I connected it with firebase ,
 but this does'nt include that files .
 ```
-
+           
 # Requirements
 ```bash  
 npx create-react-app <__name_of_the_project__>
