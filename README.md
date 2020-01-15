@@ -1,4 +1,4 @@
-# React-Redux-practice-project
+# React-Redux-Demo-project
 ```bash
 This is just a part of react redux part , which I tried to make. I connected it with firebase ,
 but this does'nt include that files .
