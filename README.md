@@ -7,7 +7,7 @@ but this does'nt include that files .
 # Requirements
 ```bash  
 npx create-react-app <__name_of_the_project__>
-npm install react-router-dom
+npm install react-router-dom 
 npm install firebase
 npm install redux react-redux
 npm install redux-thunk
