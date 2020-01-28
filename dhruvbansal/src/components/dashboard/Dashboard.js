@@ -3,12 +3,12 @@ import ProjectList from '../projects/ProjectList'
 import { connect } from 'react-redux'
 
 class Dashboard extends Component {
-  render() {
-    
+  render() {    
     const { projects } = this.props;
     
     return (
       <div>
+        {console.log(this.props.location)}
       <div className="dashboard container">
         <div className="row">
           <div className="col s12 m6"  >

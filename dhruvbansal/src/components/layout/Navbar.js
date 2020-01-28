@@ -9,9 +9,6 @@ const Navbar = () => {
     <nav className="nav-wrapper grey darken-3">
       <div className="container">
         <Link to='/' className="brand-logo">Grido.co</Link>
-        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
-          <i class="material-icons">menu</i>
-        </a>
         <ul class="right hide-on-med-and-down">    
           <li><Charts /></li>      
           <li><SignedOutLinks /></li>

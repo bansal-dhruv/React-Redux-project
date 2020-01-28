@@ -10,5 +10,10 @@ import thunk from 'redux-thunk'
 
 const store = createStore(rootReducer, applyMiddleware(thunk));
 
-ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
+ReactDOM.render(
+    <Provider store={store}>     
+        {/* <Router history={browserHistory} routes={ routes } />    */}
+        <App />
+    </Provider>,
+    document.getElementById('root'));
 registerServiceWorker();

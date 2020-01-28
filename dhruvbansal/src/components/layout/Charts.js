@@ -4,7 +4,8 @@ import { NavLink } from 'react-router-dom'
 const Charts = () => {
   return (
     <div>
-      <ul >
+      <ul>
+        <li><NavLink to='/axios'>News</NavLink></li>
         <li><NavLink to='/chart'>Charging Status</NavLink></li>
       </ul>
     </div>
